@@ -1,0 +1,2 @@
+mybatis:
+  log-impl: org.apache.ibatis.logging.stdout.StdOutImpl      #控制台显示SQL语句

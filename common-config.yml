@@ -15,12 +15,12 @@ spring:
     time-zone: GMT+8
       
  mybatis:
-  mapper-locations:
-  - classpath:mapper/*.xml                         #设置mybatis的mapper.xml文件的位置 
-  type-aliases-package: com.qxmz.springcloud.entity #设置mybatis的实体类位置
-  configuration:
-    map-underscore-to-camel-case: true             #开启mybatis的驼峰命名规则
-    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+   mapper-locations:
+   - classpath:mapper/*.xml                         #设置mybatis的mapper.xml文件的位置 
+   type-aliases-package: com.qxmz.springcloud.entity #设置mybatis的实体类位置
+   configuration:
+     map-underscore-to-camel-case: true             #开启mybatis的驼峰命名规则
+     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
     
  pagehelper:
   helper-dialect: mysql                            #设置数据库
